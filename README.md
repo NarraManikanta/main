@@ -25,3 +25,31 @@ Insertions into the database are handled by the Kafka Consumer.
 
 Frontend Interface (index.html):
 Provides a simple HTML form for users to upload CSV files.
+
+
+****HOW TO RUN ****
+
+To set up and run the pipeline and scripts, follow these steps:
+
+**Prerequisites:**
+Ensure that Python and pip are installed on your system.
+Install Apache Kafka and Oracle Database, and make sure they are running.
+
+**Configuration:**
+Configure Kafka and Oracle connection settings in app.py and consumer.py respectively.
+
+**Running the Application:**
+Start the Flask web application by running python app.py.
+Access the web interface in your browser at http://localhost:5000.
+Upload a CSV file containing stock data using the provided form.
+
+**Consuming Messages:**
+Ensure that the Kafka consumer (consumer.py) is running to consume messages from the Kafka topic.
+Run the consumer script using python consumer.py.
+
+**Viewing Data:**
+Check the Oracle database to view the transformed stock data.
+
+**Additional Notes:**
+Ensure that all necessary dependencies are installed and configurations are properly set before running the application.
+Refer to the code comments and documentation for further understanding of each component and customization options.
