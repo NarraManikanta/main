@@ -1,7 +1,7 @@
 # main
 Stock data pipeline: A Flask-based web app uploads CSV files to Kafka for real-time processing, including data transformation and storage into an Oracle database.
 
-Project Overview:
+**Project Overview:**
 
 This project involves building a data pipeline for processing stock data. The pipeline consists of several components:
 
